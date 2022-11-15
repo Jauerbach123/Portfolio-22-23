@@ -178,10 +178,14 @@ nav ul{
 
 
 .btn{
-  
-   Background-color: white;
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 9px;
+    background: none;
+    color: white;
 
-
+    cursor: pointer;
 }
 
 
@@ -445,7 +449,6 @@ form{
     font-family: cursive;
     background: rgba(221, 221, 221, 0);
     cursor: pointer;
- 
 }
 
 
@@ -525,7 +528,6 @@ footer{
     .firstH{
         flex-direction: column-reverse;
         max-width: 100%;
-      
     }
 
     
@@ -540,8 +542,8 @@ footer{
 
     .btns{
         text-align: center;
-      color: white;
-      
+      Color:white;   
+    text}
 
 
     .sectionN{
