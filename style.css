@@ -30,7 +30,7 @@ nav ul{
     position: sticky;
     top: 0%;
     cursor: pointer;
-    font-family: 'Baloo Tammudu 2' , cursive;
+/*     font-family: 'Baloo Tammudu 2' , cursive; */
     z-index: 100;
   background-color: black;
 }
@@ -67,7 +67,7 @@ nav ul{
     position: absolute;
     top: 10px;
     color: #fff;
-    font-family: 'Satisfy' , cursive;
+/*     font-family: 'Satisfy' , cursive; */
   border: 10px;
   border-color: white;
 }
