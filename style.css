@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-body {background-color: grey ;}
+
 
 .background{
     background-color: black;
@@ -32,7 +32,7 @@ nav ul{
     cursor: pointer;
     font-family: 'Baloo Tammudu 2' , cursive;
     z-index: 100;
-  background-color: 		  black;
+  background-color: black;
 }
 
 
@@ -68,6 +68,8 @@ nav ul{
     top: 10px;
     color: #fff;
     font-family: 'Satisfy' , cursive;
+  border: 10px;
+  border-color: white;
 }
 
 .burger{
@@ -87,7 +89,7 @@ nav ul{
 }
 
 
-/* Navigation menu 2 */
+
 .dots{
     position: fixed;
     top: 50%;
@@ -103,7 +105,8 @@ nav ul{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: rgb(127, 187, 255);
+    background-color: 
+      rgb(127, 187, 255);
 
 }
 
@@ -124,10 +127,11 @@ nav ul{
 }
 
 
-/* Homepage  */
+
 
 .firstSection{
     height: 100vh;
+  color: white;
 
 }
 
@@ -197,7 +201,7 @@ nav ul{
     animation: text 7s steps(32) infinite alternate;
     border-right: 3px solid black;
     font-family: 'Montserrat Alternates', sans-serif;
-
+color: white;
 }
 
 @keyframes text{
@@ -211,7 +215,7 @@ nav ul{
 }
 
 
-/* About Me */
+
 
 
 .sectionN{
@@ -242,16 +246,16 @@ nav ul{
 
 .secTag{
     padding: 16px 0;
-
+  color:white;
 }
 
 
 .secSubTag{
     font-family: 'Baloo Tammudu 2' , cursive;
+  color:white;
 }
 
 
-/* Services */
 
 
 .span-s{
@@ -259,74 +263,58 @@ nav ul{
     margin-top: 150px;
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    background: transparent;
-    color: black;
-}
-
-.s-section {
-    font-family: 'Baloo Tammudu 2' , cursive;
-    display: flex;
-    margin: 10px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-}
-
-
-.s-section img{
-    border-radius: 30%;
-}
-
-#s1{
-    text-align: center;
-    width: 300px;
-    height: auto;
-    margin: 30px;
+    font-size: 40px;
     
-
-        border: 2px solid black;
-}
-
-#s1:hover{
-    border-radius: 30px;
-    border: 3px solid rgb(18, 148, 255);
+    color: white;
 }
 
 
-#s2{
-    text-align: center;
-    width: 300px;
-    height: auto;
-    margin: 30px;
-    padding: 10px;
-    
-    border: 2px solid black;
-}
+.textOverImage{
 
-#s2:hover{
-    border-radius: 30px;
-    border: 3px solid rgb(18, 148, 255);
-}
-
-
-#s3{
-    text-align: center;
-    width: 300px;
-    height: auto;
-    margin: 30px;
-    padding: 10px;
-    
-        border: 2px solid black;;
-}
-
-#s3:hover{
-    border-radius: 30px;
-    border: 3px solid rgb(18, 148, 255);
-}
-
-
-/* Gallery */
+    width:100%;
+    height:400px;
+    display:inline-block;
+    background-size:cover;
+    border-radius:4px;
+    margin:4px;
+    position:relative;
+    cursor:pointer;
+    overflow:hidden;
+  }
+  
+  .textOverImage > input{
+    display:none;
+  }
+  
+  .textOverImage > div,.textOverImage > h2{
+    position:absolute;
+    background-color:black;
+    bottom:20px;
+    left:4px;
+    right:4px;
+    border-radius:4px;
+    padding:8px;
+    overflow:hidden;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .textOverImage:hover > h2,.textOverImage > input:checked + h2 + div{
+    bottom:4px;
+    opacity:1;
+  }
+  
+  .textOverImage > input:checked + h2{
+    bottom:-20px;
+    opacity:0;
+  }
+  
+  .textOverImage > h2{
+    margin:0;
+  }
+h2{color:white;
+  }
+div{color: white;}
 
 #g1{
     text-align: center;
@@ -335,7 +323,7 @@ nav ul{
     margin: 30px;
     padding: 10px;
 
-    box-shadow: 5px 10px #f1f1f1;
+
 }
 
 
@@ -346,7 +334,7 @@ nav ul{
     margin: 30px;
     padding: 10px;
 
-    box-shadow: 5px 10px #f1f1f1;
+  
 }
 
 
@@ -357,7 +345,7 @@ nav ul{
     margin: 30px;
     padding: 10px;
 
-    box-shadow: 5px 10px #f1f1f1;
+   
 }
 
 .s-section #g1:hover{
@@ -375,11 +363,10 @@ nav ul{
 }
 
 
-/* Skills */
+
 
 .container{
-    width: 100%;
-    background-color: #ddd;
+    
 }
 
 
@@ -401,7 +388,7 @@ nav ul{
 }
 
 .css{
-    width: 6%;
+    width: 40%;
     background-color: #044caa;
 }
 
@@ -412,11 +399,13 @@ nav ul{
 .skills-s{
     margin: 50px;
    font-weight: bold; 
+ text-align: center;
+  color:white;
+  
   
 }
 
 
-/* Contact Form */
 
 form{
     text-align: center;
@@ -452,7 +441,6 @@ form{
 }
 
 
-/* Footer */
 
 
 footer{
@@ -528,6 +516,7 @@ footer{
     .firstH{
         flex-direction: column-reverse;
         max-width: 100%;
+      color:white;
     }
 
     
@@ -564,7 +553,7 @@ footer{
 
     .typing-eft{
         margin: auto;
-
+color:white;
         font-size: 16px;}
     
 
@@ -577,3 +566,11 @@ footer{
     margin-top:16px;
     cursor: pointer;
    }
+#contactForm{color:black;
+             font-style: oblique;}
+.ALL {background-image: linear-gradient(#2C3E50, #000000,#2C3E50);}
+
+#gallery{color:white}
+.p{color: white;}
+.form-label{color: white;}
+

@@ -5,16 +5,16 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  
-  background-color: #000000;
-  z-index: 0;
+  background-color: black;
+/*   background-size: cover; */
+}
+:root {
+  background-color:black;
 }
 p {
-  color: #fff;
+  color: white;
 }
-/* -----------------------------------
-      Gallery Section
---------------------------------------*/
+
 .portfolio-section {
   padding: 50px 0;
   background-color: #000;
@@ -126,7 +126,7 @@ p {
   margin-top: 70px;
   margin-bottom: 20px;
   font-size: 16px;
-  color: #fff;
+  color: black;
   font-weight: 500;
 }
 .portfolio-overlay .magnify-icon {
@@ -144,11 +144,10 @@ p {
 }
 .portfolio-overlay .magnify-icon p span i {
   font-size: 15px;
-  color: #fff;
+  color: black;
   line-height: 40px;
   cursor: pointer;
 }
+.container-fluid{color:black;}
 
-/*******Responsive media query******/
-
-/* Extra small devices (portrait phones, less than 576px)*/
+.total {background-color:black;}

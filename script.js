@@ -8,3 +8,4 @@ burger.addEventListener('click', () => {
   navList.classList.toggle('v-class-r');
   navbarN.classList.toggle('h-nav-r');
 })
+
